@@ -21,11 +21,17 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 
 ## I completed  the project by following steps to complete the game.
 + After I went through the instructions , I got a git hub link `https://github.com/udacity/frontend-nanodegree-arcade-game` and got the project file  in rubric structure which was provided by Udacity .
-+ I get through it and got a plain page with error in console.
++ I get through it and got a plain page with error in console allEnemies[].
 + And initialized a player class and assigned to a variable.
-+ for player I initialized `render`, `update`, `handle Input` functions, As render used for placing cards and update is used for updating position.
-+ `handle Input` is used for initializing  arrow keys functioning, __left arrow__ __right arrow__ __up arrow__ __down arrow__  as these are used for movement of the player.
-+ when ever the actor reaches to the top the he must go to the initial position with adding some `gamescore`.
++ for player I initialized render(), update(), handleInput() functions
++ As render() used for placing cards and update is used for updating position.
++ handle Input() is used for initializing  arrow keys functioning for a player by the pixel length measurement of canvas
++as they already implemented some logic in rubric structure i just changed steps to move __left arrow__ __right arrow__ __up arrow__ __down arrow__  as these are used for movement of the player by arrow keys.
++ when ever the actor reaches to the top the he must go to the initial position with adding some `gamescore` as +10. 
 + I initialized `gamescore` for counting the score of the game.
-+ And I used bugs as enemies using array  and given some speed and positions, And if actor touches the bug then he should again comes to the initial position.
++ And I used bugs as enemies using array in two methods `update()`and render()*.
++ i also given some speed and positionsof the Enemy
++ And if actor touches the bug then he should again comes to the initial position by `update` .
++ then i used innerHTML method to display gamescore on desktop.
 + Then I given the `sweet alert` for ending the game with the total game score and reload page button using JavaScript.  
+output of game
