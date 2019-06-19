@@ -64,7 +64,7 @@ Player.prototype.update = function(dt) {
  if (this.y < 40) {
    this.x = 200;
    this.y = 380;
-   gamescore += 1;
+   gamescore += 10;
    count.innerText = "total gamescore is " + gamescore;
    if (gamescore === 1000) {
      openWinModal();
