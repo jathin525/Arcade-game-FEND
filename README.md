@@ -34,7 +34,7 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 + And if actor touches the bug then he should again comes to the initial position by `update` .
 + then i used innerHTML method to display gamescore on desktop.
 + Then I given the `sweet alert` for ending the game with the total game score and reload page button using JavaScript.  
-Over View 
+##Over View of the game
 + there will bw a player who caan move one step in any direction
 + three Enemies(ie.bugs) who will move only from left to right in specific position in alternate speeds
 + there will be a top zone , if the player reaches the zone with out touching Enemies then he willgain +10 gamescore
